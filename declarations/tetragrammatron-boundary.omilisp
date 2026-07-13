@@ -1,0 +1,16 @@
+;; tetragrammatron-boundary.omilisp
+;; Tetragrammatron: lawful fold governor
+
+(tetragrammatron-boundary
+  (role . "lawful fold governor")
+  (etymology
+    (tetra . "fourfold")
+    (gramma . "word, mark, grammar, written form")
+    (tron . "machine, instrument, computron"))
+  (fold-patterns
+    (centered . #x3C)
+    (carried . #x78))
+  (rules
+    (carries . "Tetragrammatron carries the fold")
+    (validates . "Tetragrammatron validates exact closure")
+    (does-not-frame . "Tetragrammatron does not frame or resolve")))

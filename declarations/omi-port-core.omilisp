@@ -1,0 +1,18 @@
+;; omi-port-core.omilisp
+;; OMI-Port declaration surface core
+
+(omi-port-core
+  (ports
+    (omi-canon-port . "canonical OMI doctrine")
+    (omi-lisp-port . "local declaration surface")
+    (omi-port-port . "external/adaptive port surface")
+    (omi-isa-port . "executable witness rail")
+    (omi-axioms-port . "proof authority rail")
+    (omi-canvas-port . "Haskell type/model surface")
+    (omi-portal-port . "downstream application surface")
+    (omi-protocol-port . "legacy protocol language")
+    (omi-tetragrammatron-port . "bounded validation/governor")
+    (omnicron-port . "resolver-facing binary core"))
+  (rules
+    (candidates . "Port declarations are candidates, not authorities")
+    (classification . "Classification precedes promotion")))

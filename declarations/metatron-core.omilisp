@@ -1,0 +1,14 @@
+;; metatron-core.omilisp
+;; Metatron: balanced alternating witness and scribe
+
+(metatron-core
+  (role . "balanced alternating witness and scribe")
+  (constant . #xAA55)
+  (properties
+    (ones . 8)
+    (zeros . 8)
+    (balanced . #t))
+  (rules
+    (witnesses . "Metatron witnesses the crossing")
+    (scribes . "Metatron scribes the visible difference")
+    (does-not-validate . "Metatron does not validate or accept")))

@@ -1,0 +1,16 @@
+;; null-ring.omilisp
+;; The Null Ring: folded null seed and byte-ring closure
+
+(null-ring
+  (seed . (NULL . NULL))
+  (byte-ring
+    (pair (car . 0x00) (cdr . 0x20) (xor . 0x20))
+    (pair (car . 0x20) (cdr . 0x7F) (xor . 0x5F))
+    (pair (car . 0x7F) (cdr . 0xFF) (xor . 0x80))
+    (pair (car . 0xFF) (cdr . 0x00) (xor . 0xFF)))
+  (full-closure
+    (witness . 0x20)
+    (witness . 0x5F)
+    (witness . 0x80)
+    (witness . 0xFF)
+    (result . 0x00)))

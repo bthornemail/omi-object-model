@@ -1,0 +1,16 @@
+;; omi-notation.omilisp
+;; The canonical notation surface
+
+(omi-notation
+  (surface . "omi---imo?O_o")
+  (parts
+    (carrier . "omi---imo")
+    (witness-branch . "?O_o")
+    (relation-hinge . "omi---imo?O_o"))
+  (f-column
+    (hinge . #x1F)
+    (branch . #x2F #x3F #x4F #x5F #x6F)
+    (horizon . #x7F))
+  (canonical-distinction
+    (carrier-syntax . "#/")
+    (omi-native . "?O_o")))

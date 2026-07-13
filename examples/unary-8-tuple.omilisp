@@ -1,0 +1,15 @@
+;; unary-8-tuple.omilisp
+;; The 8-tuple as unary sign relations
+
+(unary-8-tuple
+  (status . "pedagogical scaffold")
+  (signs . "Q Sigma L R delta s t r")
+  (meaning . "Eight signs of one unary relation type")
+  (canonical-law
+    (sign . "establishes role")
+    (tuple . "establishes compatibility")
+    (nesting . "establishes place")
+    (address . "binds place value")
+    (lowering . "supplies bits")
+    (xor . "computes the relation witness"))
+  (note . "Not 8x16-bit coordinates. Not 4x32-bit compression. Signs first."))

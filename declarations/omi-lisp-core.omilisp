@@ -1,0 +1,16 @@
+;; omi-lisp-core.omilisp
+;; OMI-Lisp declaration surface core types
+
+(omi-lisp-core
+  (types
+    (null . "the folded null seed")
+    (symbol . "a named identifier")
+    (pair . "a cons cell (car . cdr)"))
+  (lowering
+    (seed . "NULL node")
+    (pair . "(car . cdr) cons cell")
+    (symbol . "named identifier"))
+  (rules
+    (declares . "OMI-Lisp declares")
+    (defines . "OMI notation defines")
+    (classifies . "SETCO classifies")))

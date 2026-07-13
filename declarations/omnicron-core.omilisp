@@ -1,0 +1,13 @@
+;; omnicron-core.omilisp
+;; Omnicron: resolver and projection surface
+
+(omnicron-core
+  (role . "resolver and projection surface")
+  (resolver-envelope . #xFF #x00 #x1C #x1D #x1E #x1F #x20 #xFF)
+  (etymology
+    (omni . "all-of-OMI / whole-system scope")
+    (cron . "cadence / chronology / algorithmic clock"))
+  (rules
+    (resolves . "Omnicron resolves")
+    (does-not-define . "Omnicron does not define")
+    (frames . "Omnicron frames universally compatible signs")))

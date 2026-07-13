@@ -1,0 +1,8 @@
+;; omi-imo-surface.omilisp
+;; The folded root notation surface
+
+(omi-imo-surface
+  (folded . "omi---imo")
+  (meaning . "folded root circulation")
+  (bridge . "---")
+  (bridge-role . "relational bridge / omi---imo cell join"))

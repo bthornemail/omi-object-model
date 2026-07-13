@@ -1,0 +1,14 @@
+;; gauge-ring.omilisp
+;; The gauge ring: deterministic normalization ruler
+
+(gauge-ring
+  (null-gauge
+    (bytes . #xF0 #x00 #x1C #x1D #x1E #x1F #x20 #xF0)
+    (role . "null gauge omi-ring"))
+  (gnomic-gauge
+    (bytes . #xF0 #x00 #x1C #x1D #x1E #x1F #x20 #xF0)
+    (role . "gnomic gauge omi-ring"))
+  (normalization
+    (rule . "fixed digital null-byte ring")
+    (behavior . "algorithmic carry-forward")
+    (change . "does not change")))

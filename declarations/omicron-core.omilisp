@@ -1,0 +1,17 @@
+;; omicron-core.omilisp
+;; Omicron: deterministic normalization and closure surface
+
+(omicron-core
+  (role . "deterministic normalization and closure surface")
+  (null-byte-ring
+    (0x00 . "NUL origin")
+    (0x20 . "SP readable boundary")
+    (0x7F . "DEL deletion/seal boundary")
+    (0xFF . "saturated carrier horizon"))
+  (closure
+    (witness . #x20 #x5F #x80 #xFF)
+    (result . #x00))
+  (rules
+    (normalizes . "Omicron normalizes and closes")
+    (does-not-change . "Omicron does not change")
+    (does-not-resolve . "Omicron does not resolve lived experience")))
